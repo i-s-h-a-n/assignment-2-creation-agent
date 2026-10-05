@@ -1,0 +1,62 @@
+{
+  "agent": {
+    "name": "Emerging Technology Creation Agent",
+    "specialty": "technology creation and evolution history",
+    "version": "1.1-student"
+  },
+  "analytical_question": "How did Retrieval-Augmented Generation (RAG) emerge, what prior capabilities made it possible, and what does that creation history imply for a bounded financial-research assistant pilot at this organization?",
+  "general_et_finding": "Evidence: Lewis et al. (2020) described RAG as combining a pretrained sequence-to-sequence generator (parametric memory) with a dense vector index accessed by a neural retriever (non-parametric memory) for knowledge-intensive NLP, explicitly motivated by limitations in accessing, updating, and providing provenance for knowledge stored only in model parameters. Earlier and contemporaneous enabling work included the Transformer architecture for attention-based sequence modeling (Vaswani et al., 2017), dense neural passage retrieval (Karpukhin et al., 2020), and retrieval-augmented language-model pretraining such as REALM (Guu et al., 2020). Inference: RAG is therefore best characterized here as a recombinative innovation that integrated maturing pretrained generation and neural retrieval capabilities rather than as a wholly new computing paradigm.",
+  "application_finding": "Creation-to-use alignment is strong. The intended financial-research assistant needs access to external or organization-approved knowledge before drafting an answer, which closely matches the knowledge-access and explicit-memory problem that motivated RAG. That history supports testing retrieval-grounded generation rather than assuming that a model's parameters alone are sufficient. It does not prove current production accuracy, dependable citation behavior, or suitability for every research task.",
+  "organization_specific_finding": "For a moderate/fast-follower financial-services firm with low tolerance for unsupported factual claims, the creation history supports only a controlled experiment: use a governed corpus, expose retrieved sources to analysts, preserve human review, and compare the RAG workflow with a simpler non-RAG baseline. The organization's risk posture changes the acceptable test design and management action, but it does not change the documented RAG origin story.",
+  "evidence": [
+    {
+      "claim": "Lewis et al. introduced RAG models that combine pretrained parametric sequence-to-sequence memory with non-parametric memory in a dense vector index accessed by a neural retriever, motivated in part by knowledge access, provenance, and updateability limitations in parametric-only models.",
+      "source_or_reference": "Lewis, P. et al. (2020), 'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,' NeurIPS 33, https://papers.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+      "date_or_recency": "2020; original publication page checked 2026-10-05",
+      "evidence_type": "peer-reviewed original research",
+      "notes": "Directly supports the documented RAG architecture and original problem framing."
+    },
+    {
+      "claim": "Dense Passage Retrieval showed that dense representations learned with a dual-encoder could practically retrieve passages for open-domain QA and substantially outperform a strong BM25 baseline on top-20 retrieval accuracy in the reported benchmarks.",
+      "source_or_reference": "Karpukhin, V. et al. (2020), 'Dense Passage Retrieval for Open-Domain Question Answering,' EMNLP, DOI 10.18653/v1/2020.emnlp-main.550, https://aclanthology.org/2020.emnlp-main.550/",
+      "date_or_recency": "2020; original ACL publication page checked 2026-10-05",
+      "evidence_type": "peer-reviewed original research",
+      "notes": "Supports dense neural retrieval as an enabling predecessor capability; the benchmark result is not generalized to the financial use case."
+    },
+    {
+      "claim": "The Transformer architecture replaced recurrence and convolution with attention mechanisms and became a foundational architecture for later pretrained sequence models used in RAG-style systems.",
+      "source_or_reference": "Vaswani, A. et al. (2017), 'Attention Is All You Need,' NeurIPS 30, https://papers.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+      "date_or_recency": "2017; original NeurIPS publication page checked 2026-10-05",
+      "evidence_type": "peer-reviewed original research",
+      "notes": "Supports an important architectural predecessor; it does not by itself establish RAG's value."
+    },
+    {
+      "claim": "REALM augmented language-model pretraining with a neural knowledge retriever over an external corpus, demonstrating a contemporaneous path toward modular explicit knowledge access.",
+      "source_or_reference": "Guu, K. et al. (2020), 'Retrieval Augmented Language Model Pre-Training,' ICML/PMLR 119, https://proceedings.mlr.press/v119/guu20a.html",
+      "date_or_recency": "2020; original PMLR publication page checked 2026-10-05",
+      "evidence_type": "peer-reviewed original research",
+      "notes": "Supports the broader retrieval-plus-language-model evolution around the same period."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The cited origin papers evaluate research benchmarks, not this firm's proprietary financial corpus, analyst workflow, compliance controls, or current production requirements.",
+    "RAG's historical motivation does not establish that it will reliably prevent unsupported answers, produce correct citations, or outperform simpler long-context or tool-based approaches in this organization.",
+    "The exact boundary of 'RAG' has broadened since 2020, so this analysis uses the Lewis et al. retrieval-plus-generator architecture as the historical anchor rather than treating every modern retrieval-assisted LLM workflow as identical."
+  ],
+  "confidence_and_uncertainty": "High confidence in the documented creation chain and original RAG problem framing because these are supported by original peer-reviewed sources. Medium confidence in the strong creation-to-use alignment because that is a contextual inference from the documented problem and the supplied business need. Low confidence in any present-day production-performance, readiness, ROI, security, or regulatory claim because those require separate evidence and specialist analysis.",
+  "value_opportunity_implication": "The creation history suggests a plausible value mechanism: when analysts need answers grounded in a governed, updateable body of research, separating external knowledge retrieval from generation can make that knowledge available at answer time. The opportunity is to test whether this mechanism materially improves traceability and research efficiency relative to a simpler baseline, not to assume value from novelty.",
+  "risk_governance_implication": "Because the historical architecture depends on retrieved evidence, management should govern what can be retrieved, preserve source visibility and provenance, and retain human analyst authority. The Creation Agent does not determine whether those controls are sufficient for compliance, privacy, security, or production use.",
+  "recommendation_management_implication": "Authorize a bounded six-month pilot only if access to controlled, updateable knowledge is central to the research need. Compare RAG against a simpler non-RAG baseline and measure retrieval relevance, source traceability, analyst usefulness, and unsupported-answer behavior. Defer readiness, adoption, security, regulatory, ROI, and production-deployment decisions to the relevant specialists.",
+  "change_monitoring_triggers": [
+    "A controlled domain test shows that retrieval adds little or no decision-relevant value over a simpler baseline.",
+    "Retrieved sources cannot be governed, versioned, or traced adequately for the intended workflow.",
+    "A materially simpler architecture solves the same knowledge-access problem with comparable evidence quality and lower operational complexity.",
+    "New original evidence changes the accepted history or technical definition of the RAG approach being evaluated."
+  ],
+  "abstention_or_more_information_needed": [
+    "Current production accuracy and citation reliability on the firm's actual corpus.",
+    "Security, privacy, regulatory, and compliance acceptability of the proposed implementation.",
+    "Organizational readiness, staffing, operating model, adoption plan, and ROI.",
+    "A precise corpus and baseline design if management wants a go/no-go deployment decision rather than a creation-history judgment."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Retrieval-Augmented Generation (RAG)",
+  "intended_application": "Low-stakes creative slogan and campaign-idea generation for internal brainstorming",
+  "organization": "Small boutique marketing agency",
+  "industry_sector": "Marketing / creative services",
+  "business_need": "Generate a larger variety of early-stage campaign concepts quickly",
+  "users_stakeholders": "Creative strategists, copywriters, account managers",
+  "adoption_posture": "Aggressive / leading-edge",
+  "capabilities_constraints": "Small technical team; access to general-purpose generative AI tools; final client-facing claims and copy receive human review",
+  "risk_consequence_context": "Low to moderate for internal ideation; higher only if factual product or brand claims are later used without review",
+  "management_question": "Should the agency build RAG into its creative-ideation workflow, or is a simpler generative baseline sufficient for this use case?",
+  "time_horizon": "Next 6 weeks",
+  "additional_context": "Hold the technology constant and test whether the Creation Agent changes contextual relevance without rewriting the general RAG creation history."
+}

@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Retrieval-Augmented Generation (RAG)",
+  "intended_application": "Internal financial-research assistant that retrieves approved research and knowledge sources and drafts evidence-grounded answers for analysts",
+  "organization": "Hypothetical mid-sized investment-research / financial-services firm",
+  "industry_sector": "Financial services / investment research",
+  "business_need": "Help analysts find and synthesize relevant internal and external research faster while preserving traceable source grounding",
+  "users_stakeholders": "Investment analysts, research managers, compliance/risk staff, data/AI team, information-security staff",
+  "adoption_posture": "Moderate / fast follower",
+  "capabilities_constraints": "Existing document repositories and research subscriptions; need controlled source access and human analyst review; limited tolerance for unsupported factual claims; confidential information must remain governed",
+  "risk_consequence_context": "High consequence because incorrect or weakly sourced outputs could influence investment analysis; source, confidentiality, or provenance errors could create operational, compliance, or reputational risk",
+  "management_question": "Should management authorize a bounded RAG pilot for analyst research support based specifically on what the technology was created to do and how closely that purpose matches this use case?",
+  "time_horizon": "Next 6 months",
+  "additional_context": "The Creation Agent must not decide overall readiness, ROI, regulation, security acceptability, or production deployment. Those are handoff questions for other specialists."
+}

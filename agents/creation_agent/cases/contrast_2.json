@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Retrieval-Augmented Generation (RAG)",
+  "intended_application": "Clinical policy and procedure assistant that retrieves only approved hospital guidance and drafts answers for staff, with mandatory human verification",
+  "organization": "Large hospital system",
+  "industry_sector": "Healthcare",
+  "business_need": "Help staff locate current internal policies and procedures quickly while keeping answers anchored to approved documents",
+  "users_stakeholders": "Clinicians, operations staff, policy owners, legal/compliance, IT/security",
+  "adoption_posture": "Conservative / risk-averse",
+  "capabilities_constraints": "Large governed document repository; strong privacy and access-control requirements; high need for version control and source traceability; human authority retained",
+  "risk_consequence_context": "Very high consequence if an incorrect answer is treated as clinical guidance; privacy, policy-version, and source-selection errors matter",
+  "management_question": "Does RAG's creation history justify a bounded internal policy-assistant experiment, without implying that the architecture is clinically safe or deployment-ready?",
+  "time_horizon": "Next 9 months",
+  "additional_context": "This is an optional second contrast to test whether creation-to-use alignment can remain strong while the recommended action becomes more conservative because consequence context changes."
+}
