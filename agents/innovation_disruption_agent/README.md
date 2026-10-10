@@ -1,0 +1,1 @@
+Innovation and Disruption Agent v1.1. Cases/ responses and generated prompt packets included. Run tools/check_frozen_core.py and tools/validate_response.py; see records/agent_record.md. GitHub evidence to be added after upload.

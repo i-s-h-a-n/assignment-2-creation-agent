@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI using large language models (LLMs)",
+  "organization": "Hypothetical midsize consumer lender (illustrative, not actual company)",
+  "industry_sector": "Consumer finance",
+  "adoption_posture": "Moderate / fast follower",
+  "capabilities_constraints": "Existing manual review staff and compliance oversight; access permissions and verified economic baseline not supplied",
+  "time_horizon": "12-24 months",
+  "intended_application": "Draft borrower-facing loan decision explanations and analyst investigation summaries, with required human approval; no automated credit decision",
+  "business_need": "Reduce manual documentation effort while preserving defensible credit communication",
+  "users_stakeholders": "Credit analysts, borrowers, compliance staff, managers",
+  "risk_consequence_context": "Incorrect or inconsistent explanation could harm borrowers and impose compliance, reputation and remediation costs",
+  "management_question": "How disruptive to the lender business model is this application, conditional on verified usefulness?",
+  "additional_context": "Scenario assumption: loan pricing, funding, and final underwriting remain unchanged; no measured time saving, error rate or margin impact available."
+}
