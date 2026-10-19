@@ -1,0 +1,15 @@
+{
+  "emerging_technology": "Unspecified experimental model component",
+  "organization": "Hypothetical midsize consumer lender (illustrative, not actual company)",
+  "industry_sector": "Consumer finance",
+  "adoption_posture": "Moderate / fast follower",
+  "capabilities_constraints": "Existing manual review staff and compliance oversight; access permissions and verified economic baseline not supplied",
+  "time_horizon": "Pilot decision now; review within 90 days; strategic monitoring over 12-24 months",
+  "intended_application": "Unspecified future cognitive platform",
+  "business_need": "Reduce manual documentation effort while preserving defensible credit communication",
+  "users_stakeholders": "Credit analysts, borrowers, compliance staff, managers",
+  "risk_consequence_context": "Incorrect or inconsistent explanation could harm borrowers and impose compliance, reputation and remediation costs",
+  "management_question": "How much should broader technological significance influence approval of a human-reviewed drafting pilot today?",
+  "additional_context": "Only a funding announcement is supplied; no deployed system, comparator, capability data or adoption evidence."
+}
+

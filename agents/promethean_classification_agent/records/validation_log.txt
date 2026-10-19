@@ -1,0 +1,24 @@
+FROZEN CORE INTACT
+VALIDATION PASSED
+VALIDATION PASSED
+VALIDATION PASSED
+VALIDATION PASSED
+VALIDATION PASSED
+VALIDATION PASSED
+INPUT PASS contrast_1.json
+INPUT PASS contrast_2_posture.json
+INPUT PASS hype_challenge.json
+INPUT PASS insufficient_component.json
+INPUT PASS primary.json
+OUTPUT CONTRACT PASS contrast_1_response.json
+OUTPUT CONTRACT PASS contrast_2_posture_response.json
+OUTPUT CONTRACT PASS hype_challenge_response.json
+OUTPUT CONTRACT PASS initial_incomplete_draft.json
+OUTPUT CONTRACT PASS insufficient_component_response.json
+OUTPUT CONTRACT PASS primary_response.json
+SAVED GENERAL FINDING INVARIANT contrast_1
+SAVED GENERAL FINDING INVARIANT contrast_2_posture
+SAVED GENERAL FINDING INVARIANT hype_challenge
+EXPECTED DRAFT WEAKNESS DETECTED; corrected response contains required analytical markers
+PASS: saved artifact checks. Same-chat examples; no independent or repeated model evaluation claimed.
+

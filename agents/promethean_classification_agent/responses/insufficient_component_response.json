@@ -1,0 +1,36 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "scale and breadth of technological significance",
+    "version": "1.1"
+  },
+  "analytical_question": "Is the technology incremental, breakthrough or potentially civilization-changing, and how much should broad significance affect this application decision?",
+  "general_et_finding": "Mode: prospective. ABSTAIN: the object is an unspecified component, not an identified usable system. The system gate fails. No barrier, suppression result or six-criterion score is defensible. Funding alone does not resolve any gate.",
+  "application_finding": "The future platform is unspecified; application significance cannot be assessed.",
+  "organization_specific_finding": "Lender consequences make missing system identity and capability evidence material. A funding announcement does not establish fitness.",
+  "evidence": [
+    {
+      "claim": "Only a funding claim and an unspecified component were supplied.",
+      "source_or_reference": "insufficient_component case intake",
+      "date_or_recency": "Scenario created 2026-10-19",
+      "evidence_type": "Unverified scenario assertion",
+      "notes": "Not technical evidence."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "No usable system, comparator, barrier evidence or deployment data."
+  ],
+  "confidence_and_uncertainty": "High confidence that the evidence is insufficient; no confidence assigned to technology significance.",
+  "value_opportunity_implication": "Cannot infer a benefit from funding.",
+  "risk_governance_implication": "Avoid committing to a consequential application without system identity and evidence.",
+  "recommendation_management_implication": "Request a defined usable system and primary capability evidence before classifying or considering a pilot.",
+  "change_monitoring_triggers": [
+    "Reassess when a usable system, comparator and independently checkable capability evidence are supplied."
+  ],
+  "abstention_or_more_information_needed": [
+    "System boundary and deployed use",
+    "Capability comparator and quality-adjusted measurements",
+    "Barrier and dependency evidence"
+  ]
+}
+

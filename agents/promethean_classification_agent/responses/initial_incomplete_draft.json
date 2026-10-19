@@ -1,0 +1,60 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "scale and breadth of technological significance",
+    "version": "1.0-draft"
+  },
+  "analytical_question": "Is the technology incremental, breakthrough or potentially civilization-changing, and how much should broad significance affect this application decision?",
+  "general_et_finding": "GenAI is potentially Promethean because it changes cognitive work across sectors, while the lender application remains incremental.",
+  "application_finding": "Human-reviewed loan explanation and investigation-summary drafting is an incremental process improvement hypothesis within an existing lending workflow. Final underwriting, pricing and funding remain unchanged by scenario assumption. No local performance baseline establishes a breakthrough or 10X gain; borrower-facing consequences make verification important even when the innovation is incremental.",
+  "organization_specific_finding": "The hypothetical midsize lender is a moderate fast follower with review staff, but permissions, measured benefit and review capacity are unverified. Broad GenAI significance justifies a learning agenda, not production approval. Human approval is a control to test, not proof that errors will be detected.",
+  "evidence": [
+    {
+      "claim": "The course framework uses a system gate, barrier/suppression test and six criteria; emerging cases have a potential rather than confirmed ceiling.",
+      "source_or_reference": "S1: Andres Fortino, Chapter 11 Identifying Promethean Technologies, sections 11.2 and 11.7; supplied Prep Lab 5 course reading",
+      "date_or_recency": "Draft August 2026 Rev 0.1; reviewed 2026-10-19",
+      "evidence_type": "Course analytical framework",
+      "notes": "Not academic consensus or independent proof of GenAI significance. Restricted reading is not redistributed."
+    },
+    {
+      "claim": "A customer-support field study found a 14% average increase in issues resolved per hour.",
+      "source_or_reference": "S2: Brynjolfsson, Li and Raymond, Generative AI at Work, NBER WP 31161, https://www.nber.org/papers/w31161",
+      "date_or_recency": "April 2023; revised November 2023; source search extract checked 2026-10-19",
+      "evidence_type": "Empirical study",
+      "notes": "Historical working-paper estimate, not a current universal benchmark. Supports useful assistance, not 10X or removal of accountable human work. Direct page later returned 403; search-indexed original abstract was available."
+    },
+    {
+      "claim": "HBS reports task-dependent gains in an experiment with 758 consultants and a jagged capability frontier.",
+      "source_or_reference": "S3: HBS AI Institute, Navigating the Jagged Technological Frontier, https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+      "date_or_recency": "2023-09-21; original institutional account reviewed 2026-10-19",
+      "evidence_type": "Research institution report of its experiment",
+      "notes": "Supports useful capability in selected tasks; not proof of universal correctness. Full working-paper download returned 403, so no claim is made to have audited its methods."
+    },
+    {
+      "claim": "NIST identifies confabulation, privacy and human-AI configuration risks and recommends context-specific evaluation.",
+      "source_or_reference": "S4: NIST AI 600-1, https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "date_or_recency": "July 2024; original PDF reviewed 2026-10-19",
+      "evidence_type": "Primary institutional risk guidance",
+      "notes": "Risk guidance, not lender performance data or legal certification."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Strongest case FOR a higher label: separating initial draft production from continuous expert composition could reshape both economic work and cognitive participation; S1 provides that mechanism and S2/S3 establish useful task capabilities. Cross-tier durability remains inference.",
+    "Strongest case AGAINST: the supplied studies demonstrate assistance inside existing workflows, not irreversible dependence across tiers; a human fallback remains plausible.",
+    "No verified 10X comparison, lender trial, population-wide access study or infrastructure suppression evidence is supplied. Historical evidence cannot establish October 2026 frontier-model performance."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence; long-term significance is uncertain.",
+  "value_opportunity_implication": "Potentially reduce drafting effort and broaden staff access to drafting assistance, conditional on quality and total review time. No measured savings or return is claimed.",
+  "risk_governance_implication": "Incorrect or unsupported explanations could harm borrowers. Proposed controls: use approved source facts, trace draft statements to those facts, require trained review and log corrections. Compliance staff must separately assess applicable requirements; this agent does not certify them.",
+  "recommendation_management_implication": "Approve design of an offline, time-bounded evaluation using authorized or synthetic records, with no borrower delivery. Compare total drafting-plus-review time and material factual errors against the existing workflow. Owners should set acceptance criteria before testing. Consider a limited human-approved pilot only after permissions, review capacity, quality and benefit are demonstrated. Broad significance alone never satisfies these gates.",
+  "change_monitoring_triggers": [
+    "Reassess after a 90-day evaluation or earlier on a material unsupported statement or data incident.",
+    "Reassess broad classification when independently supported cross-tier dependencies, quality-adjusted 10X results, or durable access effects become available.",
+    "Reassess local fit when the model, data access, reviewer capacity or intended application changes."
+  ],
+  "abstention_or_more_information_needed": [
+    "Abstain from confirmed Promethean status and lender rollout approval.",
+    "Need authorized-data scope, error baseline, review burden and locally agreed quality thresholds."
+  ]
+}
+
