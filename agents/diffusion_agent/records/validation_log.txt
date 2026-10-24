@@ -1,0 +1,10 @@
+primary: all supplied input/output schema constraints PASS; course validator PASS
+contrast_1: all supplied input/output schema constraints PASS; course validator PASS
+contrast_2: all supplied input/output schema constraints PASS; course validator PASS
+contrast_1: posture-only input; stable general/application/evidence; changed timing PASS
+contrast_2: posture-only input; stable general/application/evidence; changed timing PASS
+Weak adversarial fixture: structural validation PASS despite unsupported majority claim; documented semantic review REJECTS.
+All five named factors present PASS; factual and analytical quality require human review.
+Additional top-level field rejected PASS
+FROZEN CORE INTACT
+Checker implements every validation keyword used by these supplied schemas; not a general JSON Schema library.

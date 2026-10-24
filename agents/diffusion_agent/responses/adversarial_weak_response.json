@@ -1,0 +1,73 @@
+{
+  "agent": {
+    "name": "Emerging Technology Diffusion Agent",
+    "specialty": "Diffusion and bounded timing implications",
+    "version": "1.0-diagnostic-fixture"
+  },
+  "analytical_question": "What does observed RAG diffusion imply for the timing of learning and evaluation for an internal analyst research assistant, without deciding overall adoption?",
+  "general_et_finding": "RAG is already in the early majority across financial research because 75% of financial firms use AI and 98% of adviser teams have adopted an assistant.",
+  "application_finding": "The proposed internal investment-research assistant is narrower than the evidence: E6 describes RAG at an asset manager and E3 an adjacent wealth-adviser knowledge assistant. Neither measures sustained uptake among comparable midsize investment-research firms. Relative advantage: potentially faster sourced synthesis than manual search (inference from E2 and the case); compare analyst task time and correction burden locally. Compatibility: existing repositories fit retrieval, but permissions, subscriptions and review workflows may impede spread (case-based inference); test licensed access and workflow fit. Complexity: retrieval and document parsing remain implementation challenges (E6); test difficult tables, conflicting dates and retrieval misses. Trialability: a limited approved corpus and reversible shadow evaluation should support learning (proposed design, not observed trial results); test rollback and containment. Observability: selected published accounts make implementations visible, while independently comparable benefits remain uncertain; demonstrate source correctness and net task-time gains to analysts. Compatibility with governed information workflows is the most consequential local factor: speed alone will not persuade a high-consequence research organization if access and provenance are unreliable.",
+  "organization_specific_finding": "The moderate fast-follower posture favors learning from comparable implementations before widening exposure. It does not place this organization in a measured Rogers category. Case assumptions, not verified firm facts: existing repositories and human review support experimentation; sensitive sources and high-consequence analysis constrain its scope. A research-manager champion and trusted analyst reviewers are potential change agents/opinion leaders, with informal peer demonstrations a proposed communication channel. Actual influence is unmeasured. E6 documents a provider ecosystem; governed corpora, permissions, licensed content and evaluation skill are complementary assets. No RAG-specific mandatory standard or standards-driven diffusion effect was verified.",
+  "evidence": [
+    {
+      "claim": "E1: Rogers supplies five perceived innovation attributes and adopter categories based on relative timing.",
+      "source_or_reference": "Rogers, Diffusion of Innovations, fifth edition, publisher excerpt. https://www.simonandschuster.com/books/Diffusion-of-Innovations-5th-Edition/Everett-M-Rogers/9780743222099",
+      "date_or_recency": "Published 2003-08-16; accessed 2026-10-23.",
+      "evidence_type": "Original author methodological excerpt",
+      "notes": "Conceptual framework; no current RAG prevalence data."
+    },
+    {
+      "claim": "E2: The original RAG study combines retrieved external memory with generation and evaluates knowledge-intensive tasks.",
+      "source_or_reference": "Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. https://arxiv.org/abs/2005.11401",
+      "date_or_recency": "Submitted 2020-05-22; revised 2021-04-12; accessed 2026-10-23.",
+      "evidence_type": "Original research",
+      "notes": "Technical origin and mechanism; benchmark results are not adoption evidence."
+    },
+    {
+      "claim": "E3: Morgan Stanley reported 98% adoption of its Assistant among its Financial Advisor teams.",
+      "source_or_reference": "Morgan Stanley, GenAI tools announcement. https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
+      "date_or_recency": "Published and reported as of 2024-06-26; accessed 2026-10-23.",
+      "evidence_type": "Adopter self-report",
+      "notes": "Single firm and within-firm team denominator; adjacent knowledge-assistant application. This release does not establish exact RAG architecture, usage frequency, or sector penetration. Historical."
+    },
+    {
+      "claim": "E4: 75% of 118 responding firms reported AI use in the 2024 Bank of England/FCA survey.",
+      "source_or_reference": "Bank of England/FCA, Artificial intelligence in UK financial services 2024. https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024",
+      "date_or_recency": "2024 survey; published 2024-11-21; accessed 2026-10-23.",
+      "evidence_type": "Original regulator survey",
+      "notes": "UK financial-services respondents; broad AI definition, not RAG or investment-research assistants. Respondent proportion is not a representative estimate for unspecified midsize peers. Historical."
+    },
+    {
+      "claim": "E5: A July 2026 UK adoption plan explicitly identifies its cited 75% figure as findings published in 2024.",
+      "source_or_reference": "Financial Services AI Adoption Plan, published by HM Treasury. https://www.gov.uk/government/publications/ai-adoption-plan-financial-services/financial-services-ai-adoption-plan",
+      "date_or_recency": "Published 2026-07-14; underlying cited AI statistic 2024; accessed 2026-10-23.",
+      "evidence_type": "Officially published independent report",
+      "notes": "Fresh publication is not fresh measurement. Supports recency caution, not a new RAG adoption estimate."
+    },
+    {
+      "claim": "E6: An AWS article co-written with Nippon Life India Asset Management describes an adopted RAG solution and retrieval/parsing challenges.",
+      "source_or_reference": "Shivakumar and Pandey, Nippon India Mutual Fund RAG implementation. https://aws.amazon.com/blogs/machine-learning/how-nippon-india-mutual-fund-improved-the-accuracy-of-ai-assistant-responses-using-advanced-rag-methods-on-amazon-bedrock/",
+      "date_or_recency": "Published 2025-07-29; deployment observation date not separately specified; accessed 2026-10-23.",
+      "evidence_type": "Vendor and adopter co-authored implementation account",
+      "notes": "Named Indian asset manager; explicit RAG, selected case, commercial interest; no peer denominator or independent performance audit. Over 12 months old; refresh before rollout timing."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Constructed adversarial fixture, not a spontaneous model run. The general finding is deliberately unsupported and must be rejected."
+  ],
+  "confidence_and_uncertainty": "High confidence in majority adoption.",
+  "value_opportunity_implication": "Potential value is reduced search and synthesis effort with inspectable sources. This is a testable opportunity, not demonstrated savings or ROI for this firm.",
+  "risk_governance_implication": "Keep analyst accountability, source permissions and provenance checks in any evaluation. Suggested controls are design conditions, not assurance of compliance or security. High uptake elsewhere does not establish safe output here.",
+  "recommendation_management_implication": "Fast-follower timing inference: during months 1-2 of the six-month horizon, seek comparable references and assess corpus/permission readiness; during months 3-4 consider a bounded shadow evaluation only after accountable owners approve its controls; use months 5-6 for evidence review and an Adoption Agent handoff. Calendar windows are proposed sequencing, not empirical forecasts or production authorization.",
+  "change_monitoring_triggers": [
+    "Reassess at three months and before any expansion; refresh implementation and survey observations rather than page publication dates.",
+    "Reassess when a current RAG-specific peer survey or independently documented comparable deployment supplies population, date and sustained-use evidence.",
+    "Pause evaluation on any unauthorized retrieval or material unsupported answer pending owner review; compare source correctness, analyst correction burden and time against the current workflow using thresholds agreed before testing.",
+    "Reassess when corpus rights, permissions, staffing, provider dependency or organizational posture changes."
+  ],
+  "abstention_or_more_information_needed": [
+    "Abstain from a precise RAG adoption rate or firm-level Rogers category.",
+    "Obtain jurisdiction, comparable peer definition, corpus rights, access design, evaluation baseline and accountable owner approval before operational testing.",
+    "Defer overall adoption, production release, legal compliance and investment decisions to the relevant specialists and humans."
+  ]
+}
