@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Electric thermal energy storage using electrically heated refractory bricks to store energy and later supply industrial steam; not an electrochemical battery or thermal-to-electricity generator.",
+  "intended_application": "Provide part of a food-and-beverage plant's process steam using flexible electricity charging, while retaining its gas boiler as backup.",
+  "organization": "Hypothetical midsize US food-and-beverage manufacturer with one plant and a planned boiler investment decision.",
+  "industry_sector": "Food and beverage manufacturing; production continuity and process heat quality matter.",
+  "business_need": "Reduce exposure to natural-gas consumption and evaluate lower-emission process heat without disrupting production.",
+  "users_stakeholders": "Plant engineer, energy manager, finance lead, operations, quality assurance, maintenance staff, electricity utility and technology suppliers.",
+  "adoption_posture": "Conservative risk-averse; policy requires independently reviewable operating evidence from a comparable food-and-beverage steam installation before funding a technology-specific POC.",
+  "capabilities_constraints": "Plant engineering team can obtain meter data; an external energy consultant is available. Hypothetical POC cap $30000 and 6 weeks. No site-specific executable tariff, detailed steam profile, electrical connection study or installed quote has yet been supplied. No production modifications are authorized.",
+  "risk_consequence_context": "A desktop feasibility study is reversible. A failed production steam installation could halt batches, damage equipment or compromise quality. Retain incumbent heat supply; engineering and quality owners must approve any later trial.",
+  "management_question": "Under this conservative policy, should management fund the same thermal-battery POC now?",
+  "time_horizon": "As of 2026-11-02; POC review 2026-12-14; possible capital decision over the following 12 months.",
+  "additional_context": "All company details, caps and thresholds are hypothetical teaching assumptions. No plant measurements, financial savings or physical trial results are claimed. Review multiple solutions and vendors; Rondo sources are evidence of this technology class, not a procurement endorsement."
+}

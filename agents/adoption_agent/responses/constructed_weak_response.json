@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "name": "Emerging Technology Adoption Agent",
+    "specialty": "Contextual adoption of electric thermal batteries for industrial steam",
+    "version": "1.0-diagnostic-fixture"
+  },
+  "analytical_question": "Should the hypothetical fast-follower food-and-beverage manufacturer fund a feasibility POC for refractory-brick heat storage now, and what gates must precede installation?",
+  "general_et_finding": "Electric refractory-brick thermal batteries have reported industrial steam operation, so the reviewed evidence supports more than laboratory feasibility (E2). This does not establish mainstream diffusion, independent lifetime assurance or a universal business case. E3 is a staged planned project and E4 a historical sector-specific plan, not operating results. Commercial adoption remains dependent on integration, usable electricity supply and delivered-heat economics; organizational risk tolerance does not change these facts.",
+  "application_finding": "The proposed steam application is plausible because storage can separate electricity charging from heat delivery. It must meet the actual steam specification and demand profile while retaining backup. Relative advantage over gas depends on the charging tariff, losses, electrical connection and installed cost, not storage efficiency alone. Compare heat reduction/recovery, suitable heat pumps and direct electric boilers before choosing storage. The current intake supplies no metered profile or executable price, so local fit and savings are unproven.",
+  "organization_specific_finding": "The firm has an engineering team, access to meter data and a hypothetical $30000 learning budget. Its moderate posture permits a reversible six-week feasibility POC. The decisive factor is that major site uncertainties can be investigated without disturbing production. There is no evidentiary basis for a production commitment. All company capabilities and caps are supplied teaching assumptions.",
+  "evidence": [
+    {
+      "claim": "ARENA presents a five-step TES assessment covering process fit, alternatives, designs and vendors, electrical infrastructure, and commercial evaluation.",
+      "source_or_reference": "ARENA, Thermal energy storage for industrial process heat A practical guide, landing-page report extract. https://arena.gov.au/knowledge-bank/thermal-energy-storage-for-industrial-process-heat-a-practical-guide/",
+      "date_or_recency": "2026 guide; accessed 2026-11-02",
+      "evidence_type": "Government commissioning agency guidance",
+      "notes": "Supports assessment method, not this plant's feasibility or a specific vendor. The landing-page extract, rather than the full report, was inspected."
+    },
+    {
+      "claim": "Rondo reports that a 100 MWh refractory-brick heat battery entered daily operation delivering industrial heat and steam in California.",
+      "source_or_reference": "Rondo Energy, Rondo Powers Up World's Largest Industrial Heat Battery. https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+      "date_or_recency": "Published 2025-10-16; accessed 2026-11-02",
+      "evidence_type": "Original vendor operating-project announcement",
+      "notes": "Reported operation goes beyond an announced pipeline. Vendor-reported performance is not independent assurance; no global adoption rate, food-plant qualification or local price follows."
+    },
+    {
+      "claim": "ARENA describes staged funding for Yarwun TES, with engineering/design work preceding conditional deployment support.",
+      "source_or_reference": "ARENA, Demonstrating a new pathway for electrifying industrial heat at scale. https://arena.gov.au/news/demonstrating-a-new-pathway-for-electrifying-industrial-heat-at-scale/",
+      "date_or_recency": "Published 2026-10-21; accessed 2026-11-02",
+      "evidence_type": "Original public funder project announcement",
+      "notes": "Current evidence of staged evaluation and integration risk. Planned refinery deployment is not an operating result, and Australian funding does not establish subsidy eligibility for the hypothetical US plant."
+    },
+    {
+      "claim": "Diageo announced selection for US DOE award negotiations and a planned Rondo installation at two beverage production sites.",
+      "source_or_reference": "Diageo North America, media release. https://media.diageo.com/diageo-corporate-media/media/fi0fwj4j/dna-and-rondo-selected-by-doe-to-advance-decarbonization-projects-32524-final.pdf",
+      "date_or_recency": "Document dated 2024-03-25; accessed 2026-11-02",
+      "evidence_type": "Original prospective customer announcement",
+      "notes": "Relevant sector interest, not verified completion or present funding status. Target dates and expected emissions reductions are plans, not measured outcomes. No completion claim is made. Original-document indexed text was inspected; a direct PDF fetch failed."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Maturity: industrial operation is vendor-reported (E2); exact-site design and reliability are not established.",
+    "Diffusion: reported operating sites and prospective sector projects show commercial activity, not a representative adopter denominator. Do not classify an early majority.",
+    "Relative advantage: flexible charging and fuel substitution may help; delivered steam cost and emissions remain conditional on electricity, losses and infrastructure.",
+    "Application fit: continuous process steam may fit thermal storage, but load, steam conditions, space, connection and backup must be checked.",
+    "Alternatives: assess demand reduction and heat recovery first, then suitable heat pumps, direct electric boilers, existing gas and thermal storage using the same useful-heat boundary.",
+    "Reversibility: a desktop feasibility study is easy to stop; civil works, electrical upgrades and boiler integration create sunk costs and are outside this decision.",
+    "Uncertainty: no local tariff, installed cost, measured demand, independent comparable reliability record or verified emissions calculation is supplied.",
+    "Failure consequences: a wrong capital decision strands funds; failure of live steam supply can disrupt production and quality. Incumbent heat remains available.",
+    "Adoption posture: the primary organization permits reversible learning. That affects timing and expenditure, not general maturity or evidence quality.",
+    "Strongest contrary argument: a POC could consume resources for a solution that tariffs or grid constraints make uneconomic; limit expenditure and compare simpler alternatives early. E1 supports a staged assessment rather than a purchase."
+  ],
+  "confidence_and_uncertainty": "High confidence based on vendor efficiency and announced projects.",
+  "value_opportunity_implication": "A feasible design could use lower-cost charging hours and substitute electricity for some gas demand, while preserving incumbent backup. The POC should quantify useful heat, charging power and full cost before assigning any savings or carbon value.",
+  "risk_governance_implication": "The plant engineer owns technical fit and continuity; finance owns the cost case; quality assurance controls acceptable process conditions. No live integration, boiler retirement or purchase is approved. The Organizational Adoption Agent should assess who will own tariff scheduling, maintenance and operator training.",
+  "recommendation_management_implication": "ADOPT_IMPLEMENT: Replace the gas boiler now. The reported high storage efficiency establishes affordable steam, and the announced beverage projects prove the technology is ready for this plant.",
+  "change_monitoring_triggers": [
+    "By 2026-12-14 the energy manager and finance lead review metered heat demand, steam specifications, an interval charging model, executable tariff terms and electrical connection constraints.",
+    "Move from POC to a separately approved bounded experiment only if engineering verifies compatibility and backup, a supplier provides a scoped quote/support proposal, and conservative full-cost scenarios show a credible route to the board-approved investment hurdle. No universal payback threshold is assumed.",
+    "Defer if the project requires major unbudgeted connection work, affordable charging cannot meet the duty cycle, or comparable reliability/support cannot be established. Reject for the present only if credible comparisons show poor fit or dominated value.",
+    "Reassess on material tariff, gas cost, supply-contract, carbon-intensity, maintenance or operating-reference changes; do not assume grants or count planned projects as commissioned."
+  ],
+  "abstention_or_more_information_needed": []
+}

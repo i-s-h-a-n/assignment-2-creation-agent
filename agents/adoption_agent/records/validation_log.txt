@@ -1,0 +1,9 @@
+FROZEN CORE INTACT
+VALIDATION PASSED
+VALIDATION PASSED
+VALIDATION PASSED
+primary: full contract check passed
+contrast_1: full contract check passed
+contrast_2: full contract check passed
+Weak fixture also passes structure: semantic review rejects its adoption conclusion
+Contrast invariants passed. These checks do not certify evidence, run a model or prove repeatability.

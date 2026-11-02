@@ -1,0 +1,34 @@
+[
+  {
+    "id": "E1",
+    "claim": "ARENA presents a five-step TES assessment covering process fit, alternatives, designs and vendors, electrical infrastructure, and commercial evaluation.",
+    "source_or_reference": "ARENA, Thermal energy storage for industrial process heat A practical guide, landing-page report extract. https://arena.gov.au/knowledge-bank/thermal-energy-storage-for-industrial-process-heat-a-practical-guide/",
+    "date_or_recency": "2026 guide; accessed 2026-11-02",
+    "evidence_type": "Government commissioning agency guidance",
+    "notes": "Supports assessment method, not this plant's feasibility or a specific vendor. The landing-page extract, rather than the full report, was inspected."
+  },
+  {
+    "id": "E2",
+    "claim": "Rondo reports that a 100 MWh refractory-brick heat battery entered daily operation delivering industrial heat and steam in California.",
+    "source_or_reference": "Rondo Energy, Rondo Powers Up World's Largest Industrial Heat Battery. https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+    "date_or_recency": "Published 2025-10-16; accessed 2026-11-02",
+    "evidence_type": "Original vendor operating-project announcement",
+    "notes": "Reported operation goes beyond an announced pipeline. Vendor-reported performance is not independent assurance; no global adoption rate, food-plant qualification or local price follows."
+  },
+  {
+    "id": "E3",
+    "claim": "ARENA describes staged funding for Yarwun TES, with engineering/design work preceding conditional deployment support.",
+    "source_or_reference": "ARENA, Demonstrating a new pathway for electrifying industrial heat at scale. https://arena.gov.au/news/demonstrating-a-new-pathway-for-electrifying-industrial-heat-at-scale/",
+    "date_or_recency": "Published 2026-10-21; accessed 2026-11-02",
+    "evidence_type": "Original public funder project announcement",
+    "notes": "Current evidence of staged evaluation and integration risk. Planned refinery deployment is not an operating result, and Australian funding does not establish subsidy eligibility for the hypothetical US plant."
+  },
+  {
+    "id": "E4",
+    "claim": "Diageo announced selection for US DOE award negotiations and a planned Rondo installation at two beverage production sites.",
+    "source_or_reference": "Diageo North America, media release. https://media.diageo.com/diageo-corporate-media/media/fi0fwj4j/dna-and-rondo-selected-by-doe-to-advance-decarbonization-projects-32524-final.pdf",
+    "date_or_recency": "Document dated 2024-03-25; accessed 2026-11-02",
+    "evidence_type": "Original prospective customer announcement",
+    "notes": "Relevant sector interest, not verified completion or present funding status. Target dates and expected emissions reductions are plans, not measured outcomes. No completion claim is made. Original-document indexed text was inspected; a direct PDF fetch failed."
+  }
+]
