@@ -1,0 +1,48 @@
+{
+  "case": "contrast_2",
+  "classification": "INSUFFICIENT_INFORMATION",
+  "basis": "Fictional scenario premises plus bounded analyst inference",
+  "dimensions": [
+    {
+      "dimension": "Leadership and sponsorship",
+      "status": "UNKNOWN",
+      "basis": "A charter is stated, but actual stop authority is not evidenced."
+    },
+    {
+      "dimension": "Skills and training",
+      "status": "READY",
+      "basis": "Retained ergonomist and trained fit champions are allocated."
+    },
+    {
+      "dimension": "Workflow and process",
+      "status": "READY",
+      "basis": "Alternatives, residual bending, SOP and exclusions are documented."
+    },
+    {
+      "dimension": "Infrastructure and data",
+      "status": "READY",
+      "basis": "Task baseline, fit inventory and care records exist."
+    },
+    {
+      "dimension": "Resources and budget",
+      "status": "READY",
+      "basis": "Trial funding, paid time, backfill and continuing reserve are stated."
+    },
+    {
+      "dimension": "Governance and risk",
+      "status": "UNKNOWN",
+      "basis": "Approval of risk review and incident/withdrawal arrangements is unknown, not proven absent."
+    },
+    {
+      "dimension": "Culture and change",
+      "status": "READY",
+      "basis": "Voluntary worker participation and no quota increase are explicit."
+    },
+    {
+      "dimension": "Operating ownership",
+      "status": "READY",
+      "basis": "Daily operational and maintenance roles exist; governance authorization is still unresolved."
+    }
+  ],
+  "go_or_no_go_scope": "Supervised station-level evaluation, not production-scale rollout"
+}

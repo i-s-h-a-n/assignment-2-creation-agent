@@ -1,0 +1,32 @@
+[
+  {
+    "id": "E1",
+    "title": "Industrial Exoskeletons",
+    "publisher": "NIOSH",
+    "published": "2020-01-07",
+    "accessed": "2026-11-09",
+    "url": "https://www.cdc.gov/niosh/bulletin/2020/industrial-exoskeletons.html",
+    "supports": "Task-specific potential benefit; fit, mobility and transferred risks require evaluation; address residual risk after feasible engineering controls.",
+    "limits": "Older research commentary, not a device certification or proof of long-term injury reduction. Do not treat its research snapshot as the entire 2026 evidence base."
+  },
+  {
+    "id": "E2",
+    "title": "Science and Tech Spotlight Wearable Technologies in the Workplace",
+    "publisher": "US GAO",
+    "published": "2024-03-04",
+    "accessed": "2026-11-09",
+    "url": "https://www.gao.gov/products/gao-24-107303",
+    "supports": "Workplace wearable adoption can face cost and usability barriers; published efficacy evidence is limited.",
+    "limits": "Broad wearable overview. Sensor privacy issues cannot automatically be attributed to a passive device with no electronics."
+  },
+  {
+    "id": "E3",
+    "title": "About Ergonomics and Work Related Musculoskeletal Disorders",
+    "publisher": "NIOSH",
+    "published": "2024-02-21 (displayed review date)",
+    "accessed": "2026-11-09",
+    "url": "https://www.cdc.gov/niosh/ergonomics/about/index.html",
+    "supports": "Design work and job demands around worker capabilities; evaluate physical and psychosocial risk factors.",
+    "limits": "General methodological guidance, not a local task assessment or a legal opinion."
+  }
+]

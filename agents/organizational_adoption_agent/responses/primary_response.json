@@ -1,0 +1,59 @@
+{
+  "agent": {
+    "name": "Organizational Adoption Agent",
+    "specialty": "Organizational readiness and sustained adoption",
+    "version": "1.1"
+  },
+  "analytical_question": "Can this organization absorb, govern and sustain a voluntary station-level evaluation now, and what readiness gaps block it?",
+  "general_et_finding": "Passive back-support exoskeletons offer task-dependent assistance, but potential load or comfort benefits do not establish long-term injury prevention. The selected sources do not establish device-specific effectiveness for this site; fit and new hazards require evaluation [E1-E2].",
+  "application_finding": "Conditional application fit: the bounded palletizing task is a candidate for qualified evaluation after feasible task redesign. No local fit, comfort or movement outcome is available. Existing handling aids, load limits and task exclusions must remain in place; an exoskeleton is not justification for heavier or faster work [E1,E3].",
+  "organization_specific_finding": "NOT_READY. Leadership and sponsorship: GAP - Director supports exploration, but no signed charter or stop authority is assigned. Skills and training: GAP - No ergonomist or trained fitting staff; qualified assessment capacity is absent. Workflow and process: GAP - Lift table and rotation are strengths; residual risk assessment and SOP are absent. Infrastructure and data: GAP - Baseline, storage, cleaning and inspection arrangements are absent; size compatibility is unknown. Resources and budget: GAP - $4,000 buying allowance is a strength, but paid training, backfill and recurring support are unfunded. Governance and risk: GAP - No trial risk review or withdrawal/incident procedure exists. Culture and change: GAP - No worker consultation; throughput pressure threatens voluntary use. Operating ownership: GAP - Purchasing can buy devices; daily fitting, cleaning, inspection and withdrawal have no owner. Readiness classification is an inference from this fictional case, not a technology maturity rating.",
+  "evidence": [
+    {
+      "claim": "Task-specific potential benefit; fit, mobility and transferred risks require evaluation; address residual risk after feasible engineering controls.",
+      "source_or_reference": "E1 https://www.cdc.gov/niosh/bulletin/2020/industrial-exoskeletons.html",
+      "date_or_recency": "2020-01-07; checked 2026-11-09",
+      "evidence_type": "Original agency guidance or research synthesis",
+      "notes": "Older research commentary, not a device certification or proof of long-term injury reduction. Do not treat its research snapshot as the entire 2026 evidence base."
+    },
+    {
+      "claim": "Workplace wearable adoption can face cost and usability barriers; published efficacy evidence is limited.",
+      "source_or_reference": "E2 https://www.gao.gov/products/gao-24-107303",
+      "date_or_recency": "2024-03-04; checked 2026-11-09",
+      "evidence_type": "Original agency guidance or research synthesis",
+      "notes": "Broad wearable overview. Sensor privacy issues cannot automatically be attributed to a passive device with no electronics."
+    },
+    {
+      "claim": "Design work and job demands around worker capabilities; evaluate physical and psychosocial risk factors.",
+      "source_or_reference": "E3 https://www.cdc.gov/niosh/ergonomics/about/index.html",
+      "date_or_recency": "2024-02-21 (displayed review date); checked 2026-11-09",
+      "evidence_type": "Original agency guidance or research synthesis",
+      "notes": "General methodological guidance, not a local task assessment or a legal opinion."
+    },
+    {
+      "claim": "Organizational arrangements used for this conditional assessment are supplied in the case.",
+      "source_or_reference": "cases/primary.json; capabilities_constraints",
+      "date_or_recency": "Scenario constructed 2026-11-09",
+      "evidence_type": "Fictional test premise, not empirical organization evidence",
+      "notes": "No site observation, interview, procurement quote or physical trial occurred."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Potential assistance does not prove a net safety benefit or long-term injury reduction.",
+    "No model-specific fit assessment or local outcome data exist. General sources are dated and are not an exhaustive 2026 review.",
+    "Site attributes, budgets and allocations are assumed for testing. Real deployment requires verified records and competent human approval."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in NOT_READY given explicit ownership and governance gaps; low confidence in actual device value. No medical or legal determination is made.",
+  "value_opportunity_implication": "A bounded evaluation could establish whether workers find support useful and whether the operating burden is sustainable. No savings, productivity uplift or injury reduction is quantified.",
+  "risk_governance_implication": "Keep qualified human assessment, worker withdrawal and independent stop authority. Do not substitute wearables for feasible task redesign. The selected devices have no electronics; cloud infrastructure, charging and tracking controls are not assumed needs.",
+  "recommendation_management_implication": "P0 before any worker exposure: operations director (proposed accountable owner) must sign a charter assigning daily ownership and independent stop authority, fund qualified ergonomics support and protect voluntary participation; closure is a signed responsibility/authority record and funded staff allocation. P0: retained ergonomist and worker representatives (proposed roles) must document residual task risk, alternatives, fit/movement exclusions and an incident/withdrawal plan; safety lead signs trial review. P1 after P0: warehouse manager (proposed owner) budgets training/backfill and recurring care, creates fitting/cleaning/inspection SOPs and baselines, and obtains worker feedback without quota pressure; closure is approved budget, roster, competency records and SOP dry run. P2: review December 21, 2026; continue preparation only until all gates close, then reconsider a voluntary trial. Do not purchase devices merely to exhaust the allowance or authorize routine use now.",
+  "change_monitoring_triggers": [
+    "Reassess at December 21, 2026 readiness review or sooner when authority, staffing, funding or worker-participation conditions change.",
+    "Pause any trial after reported pain, a new device-related hazard, unsafe movement or inability to withdraw; competent human review decides restart.",
+    "Reassess on device model, station, task, load or workforce-fit changes, or new credible effectiveness/safety evidence."
+  ],
+  "abstention_or_more_information_needed": [
+    "Who holds documented authority to stop use? Provide the signed station-specific risk review and incident/withdrawal procedure.",
+    "Provide model-specific compatibility information and local results before judging sustained benefit or scale readiness."
+  ]
+}

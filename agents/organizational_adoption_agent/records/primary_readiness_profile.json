@@ -1,0 +1,48 @@
+{
+  "case": "primary",
+  "classification": "NOT_READY",
+  "basis": "Fictional scenario premises plus bounded analyst inference",
+  "dimensions": [
+    {
+      "dimension": "Leadership and sponsorship",
+      "status": "GAP",
+      "basis": "Director supports exploration, but no signed charter or stop authority is assigned."
+    },
+    {
+      "dimension": "Skills and training",
+      "status": "GAP",
+      "basis": "No ergonomist or trained fitting staff; qualified assessment capacity is absent."
+    },
+    {
+      "dimension": "Workflow and process",
+      "status": "GAP",
+      "basis": "Lift table and rotation are strengths; residual risk assessment and SOP are absent."
+    },
+    {
+      "dimension": "Infrastructure and data",
+      "status": "GAP",
+      "basis": "Baseline, storage, cleaning and inspection arrangements are absent; size compatibility is unknown."
+    },
+    {
+      "dimension": "Resources and budget",
+      "status": "GAP",
+      "basis": "$4,000 buying allowance is a strength, but paid training, backfill and recurring support are unfunded."
+    },
+    {
+      "dimension": "Governance and risk",
+      "status": "GAP",
+      "basis": "No trial risk review or withdrawal/incident procedure exists."
+    },
+    {
+      "dimension": "Culture and change",
+      "status": "GAP",
+      "basis": "No worker consultation; throughput pressure threatens voluntary use."
+    },
+    {
+      "dimension": "Operating ownership",
+      "status": "GAP",
+      "basis": "Purchasing can buy devices; daily fitting, cleaning, inspection and withdrawal have no owner."
+    }
+  ],
+  "go_or_no_go_scope": "Supervised station-level evaluation, not production-scale rollout"
+}

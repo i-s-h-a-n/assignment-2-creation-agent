@@ -1,0 +1,48 @@
+{
+  "case": "contrast_1",
+  "classification": "READY_FOR_BOUNDED_PILOT",
+  "basis": "Fictional scenario premises plus bounded analyst inference",
+  "dimensions": [
+    {
+      "dimension": "Leadership and sponsorship",
+      "status": "READY",
+      "basis": "Signed pilot charter and safety lead stop authority support bounded learning."
+    },
+    {
+      "dimension": "Skills and training",
+      "status": "READY",
+      "basis": "Retained ergonomist and two trained fit champions are allocated."
+    },
+    {
+      "dimension": "Workflow and process",
+      "status": "READY",
+      "basis": "Alternatives and residual bending are documented; SOP and exclusions exist."
+    },
+    {
+      "dimension": "Infrastructure and data",
+      "status": "READY",
+      "basis": "Task baseline, fit inventory, storage, cleaning and inspection records exist; individual checks remain required."
+    },
+    {
+      "dimension": "Resources and budget",
+      "status": "READY",
+      "basis": "$18,000 trial cap, paid time, backfill, spares and maintenance reserve are allocated."
+    },
+    {
+      "dimension": "Governance and risk",
+      "status": "READY",
+      "basis": "Approved station-level assessment and withdrawal/incident procedure are explicit scenario premises."
+    },
+    {
+      "dimension": "Culture and change",
+      "status": "READY",
+      "basis": "Worker representatives co-designed voluntary participation without quota increases or withdrawal penalties."
+    },
+    {
+      "dimension": "Operating ownership",
+      "status": "READY",
+      "basis": "Warehouse manager, champions, maintenance and safety lead have defined ongoing duties."
+    }
+  ],
+  "go_or_no_go_scope": "Supervised station-level evaluation, not production-scale rollout"
+}
