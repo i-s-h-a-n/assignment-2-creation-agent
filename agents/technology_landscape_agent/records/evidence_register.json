@@ -1,0 +1,38 @@
+[
+  {
+    "source": "Reuland et al., Nature",
+    "date": "2026-10-15",
+    "type": "independent single-blind experiment",
+    "url": "https://doi.org/10.1038/s41586-026-11115-0",
+    "claim": "In 746 controlled events in Arizona, targeted instruments performed best at known locations. Cloud and instrument choice affected results.",
+    "limit": "Measured performance at the test site does not establish local observation frequency or detection of diffuse emissions.",
+    "checked": "2026-11-16"
+  },
+  {
+    "source": "UNEP IMEO, Satellite Monitoring",
+    "date": "2026-05-04 expansion",
+    "type": "programme operator",
+    "url": "https://www.unep.org/en/what-we-do/energy/methane/methane-alert-and-response-system-mars",
+    "claim": "MARS expanded alerts to waste and coal in 2026, making a public alert route relevant to landfill operators.",
+    "limit": "Sector eligibility gives no promised service level for a particular site.",
+    "checked": "2026-11-16"
+  },
+  {
+    "source": "NASA JPL, First Greenhouse Gas Plumes",
+    "date": "2024-10-10",
+    "type": "mission partner observation",
+    "url": "https://www.jpl.nasa.gov/news/first-greenhouse-gas-plumes-detected-with-nasa-designed-instrument/",
+    "claim": "Tanager-1 imaged a methane plume from a Karachi landfill on 19 September 2024.",
+    "limit": "One plume demonstrates feasibility. JPL designed the instrument and is a mission partner.",
+    "checked": "2026-11-16"
+  },
+  {
+    "source": "UNEP IMEO, MARS methodology overview",
+    "date": "undated live page; reviewed 2026-11-16",
+    "type": "programme technical guidance",
+    "url": "https://methanedata.unep.org/methane-alert-response-system",
+    "claim": "Reflected-light sensing depends on illumination, clear views, surface conditions and minimum emission rate.",
+    "limit": "An absent alert cannot distinguish a missed observation from a low or intermittent emission.",
+    "checked": "2026-11-16"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Satellite imaging spectroscopy for methane point-source detection",
+  "intended_application": "Publish annual methane totals for a regional landfill inventory",
+  "organization": "Bay Regional Inventory Office (fictional)",
+  "industry_sector": "public environmental reporting",
+  "business_need": "Produce comparable annual estimates for all landfills, including small sources",
+  "users_stakeholders": "Inventory analysts, operators, public readers",
+  "adoption_posture": "Conservative",
+  "capabilities_constraints": "Facility activity records and inventory model; no field crew or validated satellite coverage correction.",
+  "risk_consequence_context": "Incomplete annual totals can misallocate mitigation funds.",
+  "management_question": "Should plume estimates replace facility-based annual estimates?",
+  "time_horizon": "next annual reporting cycle",
+  "additional_context": "Fictional management scenario. Landscape as of 2026-11-16. Reference register checked on this date:\nE1 Reuland et al., Nature | 2026-10-15 | independent single-blind experiment | https://doi.org/10.1038/s41586-026-11115-0 | In 746 controlled events in Arizona, targeted instruments performed best at known locations. Cloud and instrument choice affected results. | Measured performance at the test site does not establish local observation frequency or detection of diffuse emissions.\nE2 UNEP IMEO, Satellite Monitoring | 2026-05-04 expansion | programme operator | https://www.unep.org/en/what-we-do/energy/methane/methane-alert-and-response-system-mars | MARS expanded alerts to waste and coal in 2026, making a public alert route relevant to landfill operators. | Sector eligibility gives no promised service level for a particular site.\nE3 NASA JPL, First Greenhouse Gas Plumes | 2024-10-10 | mission partner observation | https://www.jpl.nasa.gov/news/first-greenhouse-gas-plumes-detected-with-nasa-designed-instrument/ | Tanager-1 imaged a methane plume from a Karachi landfill on 19 September 2024. | One plume demonstrates feasibility. JPL designed the instrument and is a mission partner.\nE4 UNEP IMEO, MARS methodology overview | undated live page; reviewed 2026-11-16 | programme technical guidance | https://methanedata.unep.org/methane-alert-response-system | Reflected-light sensing depends on illumination, clear views, surface conditions and minimum emission rate. | An absent alert cannot distinguish a missed observation from a low or intermittent emission."
+}

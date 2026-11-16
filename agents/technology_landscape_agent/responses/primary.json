@@ -1,0 +1,57 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology intelligence and monitoring for satellite methane detection",
+    "version": "1.1"
+  },
+  "analytical_question": "Can satellite alerts improve landfill inspection priorities over the next 90 days?",
+  "general_et_finding": "As of 16 November 2026, targeted satellites can identify large methane point sources under favorable conditions. Broad scanners offer wider search coverage with weaker sensitivity at tested rates. UNEP now includes waste in MARS; site coverage and alert latency still require local evidence.",
+  "application_finding": "A large landfill plume can guide a follow-up inspection. Scheduled ground rounds remain the strongest alternative and supply confirmation.",
+  "organization_specific_finding": "River County already has site maps, weekly routes and work orders. The most consequential development is MARS waste-sector access: it gives the manager a way to test whether alerts arrive before a scheduled visit without buying a subscription.",
+  "evidence": [
+    {
+      "claim": "In 746 controlled events in Arizona, targeted instruments performed best at known locations. Cloud and instrument choice affected results.",
+      "source_or_reference": "Reuland et al., Nature | https://doi.org/10.1038/s41586-026-11115-0",
+      "date_or_recency": "2026-10-15",
+      "evidence_type": "independent single-blind experiment",
+      "notes": "Measured performance at the test site does not establish local observation frequency or detection of diffuse emissions."
+    },
+    {
+      "claim": "MARS expanded alerts to waste and coal in 2026, making a public alert route relevant to landfill operators.",
+      "source_or_reference": "UNEP IMEO, Satellite Monitoring | https://www.unep.org/en/what-we-do/energy/methane/methane-alert-and-response-system-mars",
+      "date_or_recency": "2026-05-04 expansion",
+      "evidence_type": "programme operator",
+      "notes": "Sector eligibility gives no promised service level for a particular site."
+    },
+    {
+      "claim": "Tanager-1 imaged a methane plume from a Karachi landfill on 19 September 2024.",
+      "source_or_reference": "NASA JPL, First Greenhouse Gas Plumes | https://www.jpl.nasa.gov/news/first-greenhouse-gas-plumes-detected-with-nasa-designed-instrument/",
+      "date_or_recency": "2024-10-10",
+      "evidence_type": "mission partner observation",
+      "notes": "One plume demonstrates feasibility. JPL designed the instrument and is a mission partner."
+    },
+    {
+      "claim": "Reflected-light sensing depends on illumination, clear views, surface conditions and minimum emission rate.",
+      "source_or_reference": "UNEP IMEO, MARS methodology overview | https://methanedata.unep.org/methane-alert-response-system",
+      "date_or_recency": "undated live page; reviewed 2026-11-16",
+      "evidence_type": "programme technical guidance",
+      "notes": "An absent alert cannot distinguish a missed observation from a low or intermittent emission."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The Arizona trial is not a coverage study for River County.",
+    "The Karachi image captures a selected instant."
+  ],
+  "confidence_and_uncertainty": "High confidence in conditional point-source detection; uncertain local inspection benefit.",
+  "value_opportunity_implication": "An alert could identify a problem before the next round.",
+  "risk_governance_implication": "Verify attribution on the ground before assigning responsibility.",
+  "recommendation_management_implication": "Use a 90-day public-alert pilot. Preserve weekly rounds and compare confirmed alerts with what the next routine visit would have found. Defer paid tasking.",
+  "change_monitoring_triggers": [
+    "Weekly, the field lead records site, acquisition time, alert receipt, next planned visit, field confirmation and crew hours. Separate unusable views, usable views without plumes and detections; request the count of all attempted observations before reporting usable coverage.",
+    "At day 90 the manager may extend the trial if at least two independently confirmed alerts advanced a repair before its scheduled visit without displacing routine work. This is a proposed local decision rule, not an accuracy estimate. If the evidence is sparse, keep routine rounds and defer procurement.",
+    "Monthly, the environmental manager checks MARS waste coverage and provider latency terms; if terms or sector coverage change, reassess whether paid targeting adds anything to the public feed."
+  ],
+  "abstention_or_more_information_needed": [
+    "Without attempted and usable observations per site, do not estimate detection reliability. Without crew costs and a comparable baseline, do not claim savings."
+  ]
+}

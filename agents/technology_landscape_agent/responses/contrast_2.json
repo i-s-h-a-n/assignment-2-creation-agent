@@ -1,0 +1,56 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology intelligence and monitoring for satellite methane detection",
+    "version": "1.1"
+  },
+  "analytical_question": "Should Pine District dispatch contractors between scheduled visits on the strength of satellite alerts?",
+  "general_et_finding": "As of 16 November 2026, targeted satellites can identify large methane point sources under favorable conditions. Broad scanners offer wider search coverage with weaker sensitivity at tested rates. UNEP now includes waste in MARS; site coverage and alert latency still require local evidence.",
+  "application_finding": "Alerts may point a ground crew toward a large source; attribution and timing determine whether a field visit can resolve it. Monthly contractor inspection is the district's available alternative.",
+  "organization_specific_finding": "Pine has monthly contractor visits, uncertain boundaries and no callout funds. Here an agreement for verified attribution and timely field follow-up matters more than the number of satellites.",
+  "evidence": [
+    {
+      "claim": "In 746 controlled events in Arizona, targeted instruments performed best at known locations. Cloud and instrument choice affected results.",
+      "source_or_reference": "Reuland et al., Nature | https://doi.org/10.1038/s41586-026-11115-0",
+      "date_or_recency": "2026-10-15",
+      "evidence_type": "independent single-blind experiment",
+      "notes": "Measured performance at the test site does not establish local observation frequency or detection of diffuse emissions."
+    },
+    {
+      "claim": "MARS expanded alerts to waste and coal in 2026, making a public alert route relevant to landfill operators.",
+      "source_or_reference": "UNEP IMEO, Satellite Monitoring | https://www.unep.org/en/what-we-do/energy/methane/methane-alert-and-response-system-mars",
+      "date_or_recency": "2026-05-04 expansion",
+      "evidence_type": "programme operator",
+      "notes": "Sector eligibility gives no promised service level for a particular site."
+    },
+    {
+      "claim": "Tanager-1 imaged a methane plume from a Karachi landfill on 19 September 2024.",
+      "source_or_reference": "NASA JPL, First Greenhouse Gas Plumes | https://www.jpl.nasa.gov/news/first-greenhouse-gas-plumes-detected-with-nasa-designed-instrument/",
+      "date_or_recency": "2024-10-10",
+      "evidence_type": "mission partner observation",
+      "notes": "One plume demonstrates feasibility. JPL designed the instrument and is a mission partner."
+    },
+    {
+      "claim": "Reflected-light sensing depends on illumination, clear views, surface conditions and minimum emission rate.",
+      "source_or_reference": "UNEP IMEO, MARS methodology overview | https://methanedata.unep.org/methane-alert-response-system",
+      "date_or_recency": "undated live page; reviewed 2026-11-16",
+      "evidence_type": "programme technical guidance",
+      "notes": "An absent alert cannot distinguish a missed observation from a low or intermittent emission."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The Arizona trial is not a coverage study for River County.",
+    "The Karachi image captures a selected instant."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in deferring dispatch given the stated contract; unknown local observation availability and contractor response time.",
+  "value_opportunity_implication": "A dated alert can focus the next planned contractor visit.",
+  "risk_governance_implication": "An unverified location could wrongly implicate a neighboring facility. The contract manager must verify boundaries before authorizing extra work.",
+  "recommendation_management_implication": "Log alerts for the next contracted round. Defer unscheduled dispatch until site boundaries, a response owner and funded callout terms exist.",
+  "change_monitoring_triggers": [
+    "Monthly, the contract manager matches alerts to verified boundaries and planned visits; mark ambiguous matches unresolved. Track usable views separately from all attempted views where those counts exist.",
+    "At the 90-day contract review, reopen alert-driven dispatch only if mapped boundaries, a named responder and funded response-time terms are all confirmed; otherwise continue scheduled inspections."
+  ],
+  "abstention_or_more_information_needed": [
+    "No confirmed site boundaries, funded callout or demonstrated site-level cadence. Do not infer zero emissions from a quiet feed."
+  ]
+}
